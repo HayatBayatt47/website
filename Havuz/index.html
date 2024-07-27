@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havuz Tanıtımı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+</head>
+<body>
+    <!-- Menü İkonu -->
+    <div id="menuIcon" class="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Yan Panel -->
+    <div id="sidePanel" class="side-panel">
+        <button id="closePanel" class="close-btn">&times;</button>
+        <div class="side-panel-header">
+            <h2>Menü</h2>
+        </div>
+        <ul>
+            <li><a href="#ekstraHizmetler">Ekstra Hizmetler</a></li>
+            <li><a href="Kampanyalar.html">Kampanyalar</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <div class="container">
+            <img src="Resimler/logo.png" alt="Şirket Logo" class="header-logo"> <!-- Header'da Logo -->
+            <div class="header-text">
+                <h1 class="company-name">KAYA METAL YAPI</h1>
+                <h2>Kalite ve Güven</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Havuz Özellikleri</h2>
+            <div class="features-wrapper">
+                <!-- Özellikler: Video İçeren -->
+                <div class="feature-item">
+                    <video class="feature-video" controls>
+                        <source src="videolar/Video1.mp4" type="video/mp4">
+                        Tarayıcınız video etiketini desteklemiyor.
+                    </video>
+                    <div class="feature-description">
+                        <h3>Özel Tasarım</h3>
+                        <p>Modern ve şık tasarımı ile dikkat çeken havuzumuz, estetik açıdan göz alıcıdır.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="Resimler/Resim1.jpeg" alt="Serinletici Atmosfer">
+                    <div class="feature-description">
+                        <h3>Serinletici Atmosfer</h3>
+                        <p>Yazın sıcak günlerinde size serinletici bir atmosfer sunar ve konforlu bir yüzme deneyimi sağlar.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="Resimler/images.jpeg" alt="Eğlence Alanı">
+                    <div class="feature-description">
+                        <h3>Eğlence Alanı</h3>
+                        <p>Ailece veya arkadaşlarınızla keyifli vakit geçirebileceğiniz geniş ve rahat bir alan sunar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yeni Bölüm: Havuz Bakımı ve Güvenlik -->
+    <section class="maintenance-security">
+        <div class="container">
+            <h2>Bakım ve Güvenlik</h2>
+            <div class="maintenance-wrapper">
+                <div class="maintenance-item">
+                    <video class="maintenance-video" controls>
+                        <source src="videolar/Video18.mp4" type="video/mp4">
+                    </video>
+                    <div class="maintenance-description">
+                        <h3>Profesyonel Bakım</h3>
+                        <p>Havuzumuz düzenli olarak profesyonel ekipler tarafından bakıma alınır, temizliği ve güvenliği ön plandadır.</p>
+                    </div>
+                </div>
+                <div class="maintenance-item">
+                    <img src="Resimler/Güvenlik.webp" alt="Güvenlik">
+                    <div class="maintenance-description">
+                        <h3>Güvenlik Önlemleri</h3>
+                        <p>Havuz çevresinde 24/7 güvenlik kameraları ve acil durum ekipmanları mevcuttur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yeni Bölüm: Kullanıcı Yorumları -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Kullanıcı Yorumları</h2>
+            <div class="testimonials-wrapper">
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="Resimler/Profil2.jpg" alt="Ahmet Yılmaz" class="profile-img">
+                        <div class="profile-info">
+                            <h4>Ahmet Yılmaz</h4>
+                            <p>"Havuz gerçekten harika! Ailemizle birlikte keyifli vakit geçiriyoruz."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="Resimler/Profil1.jpg" alt="Ayşe Demir" class="profile-img">
+                        <div class="profile-info">
+                            <h4>Ayşe Demir</h4>
+                            <p>"Güvenlik önlemleri ve bakım gerçekten etkileyici. Rahat bir tatil geçirdik."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2024 Havuz Tanıtımı. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/kayametal_yapi/profilecard/?igsh=OXpteTNuNTQ4ZGhx" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/yourcompany" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://twitter.com/yourcompany" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button id="scrollToTopBtn">Sayfayı Yukarı Kaydır</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
